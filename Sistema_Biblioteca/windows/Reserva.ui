@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>797</width>
+    <height>493</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>797</width>
+    <height>493</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Reservas</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(35, 67, 185, 255), stop:1 rgba(58, 117, 255, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="menu">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>191</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="titulo">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>-10</y>
+      <width>371</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>CONTROLE RESRVAS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BcadAluno">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 15px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(35, 67, 185, 255), stop:1 rgba(58, 117, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>CAD ALUNO</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/aluna.png</normaloff>icons/aluna.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bretirar">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>240</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 15px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(35, 67, 185, 255), stop:1 rgba(58, 117, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>CONF DEVOLUÇÃO</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/em-processamento.png</normaloff>icons/em-processamento.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Batualizar">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 15px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(35, 67, 185, 255), stop:1 rgba(58, 117, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>ATUALIZAR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/atualizar.png</normaloff>icons/atualizar.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bsuporte">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>290</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 15px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(35, 67, 185, 255), stop:1 rgba(58, 117, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>SUPORTE</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/suporte-tecnico.png</normaloff>icons/suporte-tecnico.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bsair">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>370</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 15px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(35, 67, 185, 255), stop:1 rgba(58, 117, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>SAIR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/sair.png</normaloff>icons/sair.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fundologue">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>440</y>
+      <width>771</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logue">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>450</y>
+      <width>411</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>90</y>
+      <width>581</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(211, 211, 211);</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>NOME ALUNO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>NOME LIVRO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>STATUS</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DATA RETIRADA</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DATA ENTREGA</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="BcadLivro">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>190</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 15px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(35, 67, 185, 255), stop:1 rgba(58, 117, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>CAD LIVRO</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/livro.png</normaloff>icons/livro.png</iconset>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
