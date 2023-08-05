@@ -60,7 +60,7 @@ background-color: rgb(255, 255, 255);</string>
      <string notr="true"/>
     </property>
     <property name="text">
-     <string>CONTROLE RESRVAS</string>
+     <string>CONTROLE RESERVAS</string>
     </property>
    </widget>
    <widget class="QPushButton" name="BcadAluno">

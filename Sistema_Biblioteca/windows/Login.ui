@@ -161,7 +161,7 @@ background-color: rgb(179, 179, 179);
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Sytem/Windows/Version/3.0/Icons/do-utilizador.png</pixmap>
+     <pixmap>icons/do-utilizador.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -183,7 +183,7 @@ background-color: rgb(179, 179, 179);
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Sytem/Windows/Version/3.0/Icons/trancar.png</pixmap>
+     <pixmap>icons/simbolo-de-cadeado-para-interface-de-seguranca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
