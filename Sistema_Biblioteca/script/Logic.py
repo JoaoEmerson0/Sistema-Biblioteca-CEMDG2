@@ -243,10 +243,8 @@ def pendencias():
             elif dataEntrega >= Hoje and estatus != "ENTREGUE":
                 novo_status = "OK"
 
-            # Atualizar o campo "estatus" no banco de dados
             DB.cursor.execute("UPDATE reservas SET estatus = (?) WHERE id = (?)", (novo_status, reserva_id,))
 
-        # Certifique-se de commitar as mudanças após o loop
         DB.DB.commit()
     except Exception as e:
         print(f"Ocorreu um erro: {str(e)}")
